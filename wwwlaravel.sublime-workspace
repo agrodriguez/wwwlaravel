@@ -1,0 +1,393 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"foreig",
+				"db2_foreign_keys"
+			],
+			[
+				"spn",
+				"span	Tag"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"small",
+				"small	Tag"
+			],
+			[
+				"Requ",
+				"Requests"
+			],
+			[
+				"R",
+				"Requests"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"Request",
+				"Request::all	Get all of the input and files for the request."
+			],
+			[
+				"time",
+				"timestamps"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<?php\n\n/*\n|--------------------------------------------------------------------------\n| Application Routes\n|--------------------------------------------------------------------------\n|\n| Here is where you can register all of the routes for an application.\n| It's a breeze. Simply tell Laravel the URIs it should respond to\n| and give it the controller to call when that URI is requested.\n|\n*/\n\n/*Route::get('/', function () {\n    return view('welcome');\n});*/\nRoute::get('/','PagesController@index');\n\nRoute::get('about','PagesController@about');\nRoute::get('contact','PagesController@contact');\nRoute::get('products','PagesController@products');\n\n/*\nRoute::get('articles','ArticlesController@index');\nRoute::get('articles/create','ArticlesController@create');\nRoute::get('articles/{id}','ArticlesController@show');\nRoute::post('articles','ArticlesController@store');\n*/\n\nRoute::resource('articles','ArticlesController');\n\n/*Route::controllers([\n	'auth' => 'Auth\\AuthController',\n	'password' => 'Auth\\PasswordController'\n]);*/\n\nRoute::auth();\n\n/*Route::get('/home', 'HomeController@index');*/\n",
+			"file": "app/Http/routes.php",
+			"file_size": 1096,
+			"file_write_time": 131066907617537047,
+			"settings":
+			{
+				"buffer_size": 1093,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "snippet da",
+		"selected_items":
+		[
+			[
+				"snippet da",
+				"Snippet: date"
+			],
+			[
+				"Snippet: te",
+				"Snippet: textarea"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 421.0
+	},
+	"console":
+	{
+		"height": 128.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/inetpub/wwwlaravel",
+		"/C/inetpub/wwwlaravel/app",
+		"/C/inetpub/wwwlaravel/app/Http",
+		"/C/inetpub/wwwlaravel/resources",
+		"/C/inetpub/wwwlaravel/resources/views",
+		"/C/inetpub/wwwlaravel/resources/views/errors",
+		"/C/inetpub/wwwlaravel/resources/views/templates"
+	],
+	"file_history":
+	[
+		"/C/inetpub/wwwlaravel/resources/views/auth/register.blade.php",
+		"/C/inetpub/wwwlaravel/app/Http/Controllers/Auth/AuthController.php",
+		"/C/inetpub/wwwlaravel/app/User.php",
+		"/C/inetpub/wwwlaravel/app/Http/routes.php",
+		"/C/inetpub/wwwlaravel/resources/views/templates/app.blade.php",
+		"/C/inetpub/wwwlaravel/resources/views/auth/login.blade.php",
+		"/C/inetpub/wwwlaravel/resources/views/auth/passwords/reset.blade.php",
+		"/C/inetpub/wwwlaravel/resources/views/auth/passwords/email.blade.php",
+		"/C/inetpub/wwwlaravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/C/inetpub/wwwlaravel/vendor/symfony/routing/Router.php",
+		"/C/inetpub/wwwlaravel/app/Http/Controllers/HomeController.php",
+		"/C/inetpub/wwwlaravel/resources/views/pages/home.blade.php",
+		"/C/inetpub/wwwlaravel/resources/views/layouts/app.blade.php",
+		"/C/inetpub/wwwlaravel/vendor/symfony/routing/RouteCollection.php",
+		"/C/inetpub/wwwlaravel/resources/views/auth/emails/password.blade.php",
+		"/C/inetpub/wwwlaravel/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
+		"/C/inetpub/wwwlaravel/.env",
+		"/C/inetpub/wwwlaravel/storage/logs/laravel.log",
+		"/C/inetpub/wwwlaravel/resources/views/auth/register1.blade.php",
+		"/C/inetpub/wwwlaravel/app/Providers/RouteServiceProvider.php",
+		"/C/inetpub/wwwlaravel/resources/views/articles/show.blade.php",
+		"/C/inetpub/wwwlaravel/resources/views/articles/_form.blade.php",
+		"/C/inetpub/wwwlaravel/app/Article.php",
+		"/C/inetpub/wwwlaravel/database/migrations/2016_04_27_181056_create_articles_table.php",
+		"/C/inetpub/wwwlaravel/resources/views/templates/blog.blade.php",
+		"/C/inetpub/wwwlaravel/resources/views/pages/products.blade.php",
+		"/C/inetpub/wwwlaravel/resources/views/pages/about.blade.php",
+		"/C/inetpub/wwwlaravel/resources/views/pages/contact.blade.php",
+		"/C/inetpub/wwwlaravel/resources/views/articles/create.blade.php",
+		"/C/inetpub/wwwlaravel/resources/views/articles/edit.blade.php",
+		"/C/inetpub/wwwlaravel/resources/views/articles/index.blade.php",
+		"/C/inetpub/wwwlaravel/app/Http/Controllers/ArticlesController.php",
+		"/C/inetpub/wwwlaravel/resources/views/articles/_form.blade-php",
+		"/C/inetpub/wwwlaravel/resources/views/errors/list.blade.php",
+		"/C/inetpub/wwwlaravel/app/Http/Requests/ArticleRequest.php",
+		"/C/inetpub/wwwlaravel/app/Http/Requests/CreateArticleRequest.php",
+		"/C/inetpub/wwwlaravel/vendor/laravel/framework/src/Illuminate/Http/Request.php",
+		"/C/inetpub/wwwlaravel/vendor/nesbot/carbon/src/Carbon/Carbon.php",
+		"/C/inetpub/wwwlaravel/vendor/illuminate/html/HtmlServiceProvider.php",
+		"/C/inetpub/wwwlaravel/config/app.php",
+		"/C/inetpub/wwwlaravel/resources/views/pages/articles.blade.php",
+		"/C/inetpub/wwwlaravel/app/Http/Controllers/PagesController.php",
+		"/C/inetpub/wwwlaravel/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/inetpub/wwwlaravel/database/migrations/2016_04_27_181251_add_excerpt_to_articles_table.php",
+		"/C/inetpub/wwwlaravel/database/migrations/2016_04_27_180818_create_articles_table.php",
+		"/C/inetpub/wwwlaravel/database/migrations/2016_04_27_180101_create_articles_table.php",
+		"/C/Users/agrodriguez/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/inetpub/wwwlaravel/config/database.php",
+		"/C/inetpub/wwwlaravel/.env.example",
+		"/C/inetpub/wwwlaravel/.gitignore",
+		"/C/Users/agrodriguez/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/agrodriguez/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Windows/php.ini",
+		"/C/Windows/winsxs/amd64_microsoft-windows-w..nfrastructure-other_31bf3856ad364e35_6.1.7600.16385_none_6079f415110c0210/hosts",
+		"/C/Users/agrodriguez/.homestead/Homestead.yaml",
+		"/C/Users/Public/Documents/Homestead.yaml"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"C:\\inetpub\\wwwlaravel"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"user",
+			"auth",
+			"logout",
+			"registerView",
+			"get",
+			"auth.register",
+			"glyphicon",
+			"path"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1028,
+								1028
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wwwlaravel.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"router",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
+			],
+			[
+				"routecoll",
+				"vendor\\symfony\\routing\\RouteCollection.php"
+			],
+			[
+				"routes.",
+				"app\\Http\\routes.php"
+			],
+			[
+				"routes",
+				"app\\Providers\\RouteServiceProvider.php"
+			],
+			[
+				"createa",
+				"database\\migrations\\2016_04_27_181056_create_articles_table.php"
+			],
+			[
+				"createarticle",
+				"database\\migrations\\2016_04_27_181056_create_articles_table.php"
+			],
+			[
+				"create",
+				"resources\\views\\articles\\create.blade.php"
+			],
+			[
+				"articles",
+				"app\\Http\\Controllers\\ArticlesController.php"
+			],
+			[
+				"route",
+				"app\\Http\\routes.php"
+			],
+			[
+				"request",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Http\\Request.php"
+			],
+			[
+				"article",
+				"app\\Http\\Controllers\\ArticlesController.php"
+			],
+			[
+				"show",
+				"resources\\views\\articles\\show.blade.php"
+			],
+			[
+				"carbon",
+				"vendor\\nesbot\\carbon\\src\\Carbon\\Carbon.php"
+			],
+			[
+				"page",
+				"app\\Http\\Controllers\\PagesController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
